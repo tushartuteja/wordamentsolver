@@ -2,7 +2,7 @@ class Grid():
     def __init__(self,height,width):
         self._grid_height=height
         self._grid_width=width
-        self._grid=[['' for _ in range(width)] for _ in range(height)]
+        self._grid=[['' for _ in range(height)] for _ in range(width)]
     def get_row(self):
         return self._grid_height
     def get_col(self):
